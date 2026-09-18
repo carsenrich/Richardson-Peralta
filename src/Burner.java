@@ -74,15 +74,94 @@ public class Burner {
 	}
 	
 	public void updateTemperature() {
-		//needs filled in
+		if (timer == 0) {
+			return;
+		}
 		
+		timer--;
+		
+		if (timer > 0) {
+			return;
+		}
+		
+		Temperature target;
+		
+		switch (mySetting) {
+			case OFF:
+				target = Temperature.COLD;
+				break;
+			case LOW:
+				target = Temperature.WARM;
+				break;
+			case MEDIUM:
+				target = Temperature.HOT;
+				break;
+			case HIGH:
+				target = Temperature.BLAZING;
+				break;
+			default:
+				throw new IllegalStateException("Unknown setting");
+		}
+		
+		switch (myTemperature) {
+			case COLD:
+				if (target != Temperature.COLD) {
+					myTemperature = Temperature.WARM;
+				}
+				break;
+				
+			case WARM:
+				if (target == Temperature.COLD) {
+					myTemperature = Temperature.COLD;
+				} else if (target != Temperature.WARM) {
+					myTemperature = Temperature.HOT;
+				}
+				break;
+				
+			case HOT:
+				if (target == Temperature.BLAZING) {
+					myTemperature = Temperature.BLAZING;
+				} else if (target != Temperature.HOT) {
+					myTemperature = Temperature.WARM;
+				}
+				break;
+				
+			case BLAZING:
+				if (target != Temperature.BLAZING) {
+					myTemperature = Temperature.HOT;
+				}
+				break;
+		}
+		
+		//if more heating or cooling is needed, wait 2 mins
+		if (myTemperature != target) {
+			timer = TIME_DURATION;
+		}
 		
 	}
 	
 	
 	public void display() {
-		//needs filled in,
-		//display current burner state, current temperature, formating should match example
+		System.out.print("[" + mySetting + "].....");
+		
+		switch (myTemperature) {
+			case BLAZING:
+				System.out.println("VERY HOT! DON'T TOUCH");
+				break;
+				
+			case HOT:
+				System.out.println("CAREFUL");
+				break;
+				
+			case WARM:
+				System.out.println("warm");
+				break;
+				
+			case COLD:
+				System.out.println("cooool");
+				break;
+		}
+		
 	}
 	
 	

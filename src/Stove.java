@@ -30,10 +30,19 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {
-		//for loop that goes through all 4 burners
-		//calls display() function method for each burner
-		//should use getTemperature to check each burner
-		//should have an if statement that if any burner is BLAZING to display the HOT BURNER ALERT
+		boolean hotBurner = false;
+		
+		for (Burner burner : burners) {
+			burner.display();
+			
+			if (burner.getTemperature() == Burner.Temperature.BLAZING) {
+				hotBurner = true;
+			}
+		}
+		
+		if (hotBurner) {
+			System.out.println("RED LIGHT - HOT BURNER ALERT");
+		}
 	}
 	
 	/**

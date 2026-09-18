@@ -1,4 +1,10 @@
-
+/*
+ * Class: Burner Class, this class handles several features of a stove burner. It includes an enum for temperature, constructor,
+ * functions to increase and decrease heat settings and display 
+ * Authors: Carmela Richardson and Frank Peralta
+ * Date: 9/16/26
+ * 
+ */
 public class Burner {
 	
 	public enum Temperature{BLAZING, HOT, WARM, COLD};

@@ -1,10 +1,13 @@
 import java.util.ArrayList;
 
 /**
- * Stove class. 
+ * Stove class. Updated the displayStove function to call the display function for the burners 
+ * and added a print statement for hot burner alert
  *  
  * @author Mark Baldwin
  * @author Cyndi Rader
+ * authors: Carmela Richardson and Frank Peralta
+ *
  * 
  * Purpose: Simulates a stove
  */

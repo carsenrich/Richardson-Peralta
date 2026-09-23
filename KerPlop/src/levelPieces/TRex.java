@@ -14,7 +14,7 @@ import gameEngine.InteractionResult;
 
 public class TRex extends GamePiece implements Moveable{
 
-	public TRex(char symbol, String label, int location) {
+	public TRex(int location) {
 		super('T', "T-Rex", location);
 		
 	}

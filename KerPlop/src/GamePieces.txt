@@ -1,0 +1,61 @@
+KerPlop Game Pieces Descriptions
+Authors: Carmela Richardson and Frank Peralta
+Date: 9/23/26
+
+We used a dinosaur theme for our Kerplot game using eight different 
+pieces and two levels with different starting positions and setups.
+All eight pieces are used in both levels
+
+DRAWABLE-ONLY PIECE -
+
+Mountain (M):
+- implements Drawable directly
+- stationery, does not interact with player
+
+MOVING PIECES -
+
+TRex (T):
+- extends GamePiece
+- implements Moveable
+- moves one space to the 
+- stops when blocked or at left end of board
+- updates board and stored location
+- returns KILL when a player is within two spaces from trex
+- no interaction otherwise
+
+Raptor (R):
+- extends GamePiece
+- implements Moveable
+- randomly moves one space to the left or 
+- updates board and stored location
+- returns HIT when player in on same or adjacent space
+- no interaction otherwise
+
+STATIONARY AND INTERACTIVE PIECES -
+
+Triceratops (C):
+- extends GamePiece
+- returns HIT when player is on same or adjacent space
+- no interaction otherwise
+
+Stegosaurus (S):
+- extends GamePiece
+- returns HIT when player is on same space
+- no interaction otherwise
+
+Pterodactyl (D):
+- extends GamePiece
+- returns ADVANCE when player is on same or adjacent space
+- no interaction otherwise
+
+Brontosaurus (B):
+- extends GamePiece
+- returns ADVANCE when player is on same space
+- none otherwise
+
+Prize ($):
+- extends GamePiece
+- returns GET_POINT when player lands on same space
+- no interaction otherwise
+- remains available and can reward more points when revisited
+

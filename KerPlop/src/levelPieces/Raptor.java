@@ -16,7 +16,6 @@ public class Raptor extends GamePiece implements Moveable {
 	
 	private Random random = new Random();
 	
-	// Creates the Raptor at starting location
 	public Raptor(int location ) {
 		super('R', "Raptor", location);
 	}

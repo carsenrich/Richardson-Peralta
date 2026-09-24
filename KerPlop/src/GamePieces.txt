@@ -2,7 +2,7 @@ KerPlop Game Pieces Descriptions and Requirements
 Authors: Carmela Richardson and Frank Peralta
 Date: 9/23/26
 
-We used a dinosaur theme for our Kerplot game using eight different 
+We used a dinosaur theme for our KerPlop game using eight different 
 pieces and two levels with different starting positions and setups.
 All eight pieces are used in both levels.
 

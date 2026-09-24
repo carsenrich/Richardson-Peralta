@@ -1,18 +1,18 @@
-KerPlop Game Pieces Descriptions
+KerPlop Game Pieces Descriptions and Requirements
 Authors: Carmela Richardson and Frank Peralta
 Date: 9/23/26
 
 We used a dinosaur theme for our Kerplot game using eight different 
 pieces and two levels with different starting positions and setups.
-All eight pieces are used in both levels
+All eight pieces are used in both levels.
 
-DRAWABLE-ONLY PIECE -
+DRAWABLE-ONLY PIECE (1)-
 
 Mountain (M):
 - implements Drawable directly
 - stationery, does not interact with player
 
-MOVING PIECES -
+MOVING PIECES (2)-
 
 TRex (T):
 - extends GamePiece
@@ -31,7 +31,7 @@ Raptor (R):
 - returns HIT when player in on same or adjacent space
 - no interaction otherwise
 
-STATIONARY AND INTERACTIVE PIECES -
+STATIONARY AND INTERACTIVE PIECES(5)-
 
 Triceratops (C):
 - extends GamePiece
@@ -58,4 +58,3 @@ Prize ($):
 - returns GET_POINT when player lands on same space
 - no interaction otherwise
 - remains available and can reward more points when revisited
-

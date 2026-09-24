@@ -1,0 +1,18 @@
+2223775 | 2026-09-23 | carsenrich | Edited GamePieces.txt
+bcbe806 | 2026-09-23 | carsenrich | Completed test cases for all pieces except for Mountain, added GamePieces.txt with descriptions of pieces to meet requirements.
+e7bffa1 | 2026-09-23 | carsenrich | Finished test cases for Stegosaurus and Triceratops.
+09ad639 | 2026-09-23 | carsenrich | Completed game pieces Pterodactyl, Stegosaurus, Triceratops, and Raptor. Updated LevelSetup.
+3d461e3 | 2026-09-23 | carsenrich | Merge branch 'main' of https://github.com/carsenrich/Richardson-Peralta
+7a733cd | 2026-09-23 | Frank Peralta | updated game pieces that did not push properly on last push, updated Trex constructor
+42a232b | 2026-09-23 | carsenrich | Added test cases
+60106bf | 2026-09-23 | carsenrich | Add KerPlop game pieces
+c26699e | 2026-09-23 | carsenrich | Add KerPlop game pieces
+aff378c | 2026-09-23 | Frank Peralta | Updated LevelSetup and Mountain
+0541eaa | 2026-09-23 | Frank Peralta | Started LevelSetup class
+bfc35ea | 2026-09-21 | Frank Peralta | Added 4 game pieces
+f978d88 | 2026-09-20 | Frank Peralta | add KerPlop to Repo
+514f8e4 | 2026-09-18 | Frank Peralta | added class descriptions
+c73538a | 2026-09-17 | carsenrich | Completed temperature and stove displays
+8d01351 | 2026-09-16 | Frank Peralta | Updated Setting and built out Burner class
+ca33d0f | 2026-09-16 | Frank Peralta | Created Setting enum class
+e6cdc5c | 2026-09-16 | Frank Peralta | initial project setup

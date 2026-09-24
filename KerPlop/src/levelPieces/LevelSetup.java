@@ -1,3 +1,10 @@
+/*
+ * Class: LevelSetup. Creates the two levels and organizes the board, moving pieces, interacting pieces, and
+ * player start.
+ * Authors: Carmela Richardson and Frank Peralta
+ * Date: 9/23/26
+ */
+
 package levelPieces;
 
 import java.util.ArrayList;

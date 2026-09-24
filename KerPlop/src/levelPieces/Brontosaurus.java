@@ -1,8 +1,8 @@
 /*
- * Class: Brontosaurus class, extends the Gamepiece abstract class. The Brontosaurus is not moveable, its interaction
- * result is ADVANCE.
+ * Class: Brontosaurus class, extends the Gamepiece abstract class.
+ * The Brontosaurus is not moveable, its interaction result is ADVANCE.
  * Authors: Carmela Richardson and Frank Peralta
- * Date: 9/6/26
+ * Date: 9/23/26
  *
  */
 

@@ -1,8 +1,8 @@
-/*
- * Class: Mountain class, implements Drawable. This is the one item that does not interact with the player
+/* 
+ * Class: Mountain class, implements Drawable. This is the one item that
+ * does not interact with the player.
  * Authors: Carmela Richardson and Frank Peralta
- * Date: 9/6/26
- * 
+ * Date: 9/23/26
  */
 
 package levelPieces;

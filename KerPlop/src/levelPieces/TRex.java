@@ -3,9 +3,9 @@
  * result is KILL. This class allows interaction at a distance. If Player is within 2 spots, it will Kill
  * Player
  * Authors: Carmela Richardson and Frank Peralta
- * Date: 9/6/26
- * 
+ * Date: 9/23/26
  */
+
 package levelPieces;
 import gameEngine.Moveable;
 import gameEngine.Drawable;

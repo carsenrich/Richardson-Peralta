@@ -1,9 +1,8 @@
 /*
- * Class: Prize class, extends the Gamepiece abstract class. The Prize is not moveable, its interaction
- * result is GET_POINT.
+ * Class: Prize class, extends the Gamepiece abstract class. The Prize is
+ * not moveable, its interaction result is GET_POINT.
  * Authors: Carmela Richardson and Frank Peralta
- * Date: 9/6/26
- *
+ * Date: 9/23/26
  */
 
 package levelPieces;

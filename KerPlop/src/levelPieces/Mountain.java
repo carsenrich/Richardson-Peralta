@@ -21,7 +21,7 @@ public class Mountain implements Drawable{
 
 	@Override
 	public void draw() {
-		System.out.println(symbol);
+		System.out.print(symbol);
 		
 	}
 

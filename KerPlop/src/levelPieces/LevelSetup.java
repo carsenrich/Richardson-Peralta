@@ -45,6 +45,23 @@ public class LevelSetup {
 			gameBoard[bronto.getLocation()] = bronto;
 			interactingPieces.add(bronto);
 			
+			Raptor raptor = new Raptor(15);
+			gameBoard[raptor.getLocation()] = raptor;
+			movingPieces.add(raptor);
+			interactingPieces.add(raptor);
+			
+			Pterodactyl ptero = new Pterodactyl(2);
+			gameBoard[ptero.getLocation()] = ptero;
+			interactingPieces.add(ptero);
+			
+			Stegosaurus stego = new Stegosaurus(8);
+			gameBoard[stego.getLocation()] = stego;
+			interactingPieces.add(stego);
+			
+			Triceratops tricera = new Triceratops(11);
+			gameBoard[tricera.getLocation()] = tricera;
+			interactingPieces.add(tricera);
+			
 			
 		}else if (levelNum == 2) {
 			
@@ -65,6 +82,23 @@ public class LevelSetup {
 			Brontosaurus bronto = new Brontosaurus(18);
 			gameBoard[bronto.getLocation()] = bronto;
 			interactingPieces.add(bronto);
+			
+			Raptor raptor = new Raptor(13);
+			gameBoard[raptor.getLocation()] = raptor;
+			movingPieces.add(raptor);
+			interactingPieces.add(raptor);
+			
+			Pterodactyl ptero = new Pterodactyl(6);
+			gameBoard[ptero.getLocation()] = ptero;
+			interactingPieces.add(ptero);
+			
+			Stegosaurus stego = new Stegosaurus(4);
+			gameBoard[stego.getLocation()] = stego;
+			interactingPieces.add(stego);
+			
+			Triceratops tricera = new Triceratops(15);
+			gameBoard[tricera.getLocation()] = tricera;
+			interactingPieces.add(tricera);
 			
 		}
 		

@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Test;
 class TriceratopsTest {
 
 	@Test
-	void test() {
+	public void testTriceratops() {
+		gameBoard = new Drawable[GameEngine]
 		fail("Not yet implemented");
 	}
 
